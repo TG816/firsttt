@@ -1,0 +1,86 @@
+body{
+    font-size: 16px;
+    font-family:"黑体";
+}
+
+
+.page{
+    width: 100%;
+    height: 100vh;
+    /*background-image: url(./kuromi-backk.jpg);
+    background-size: cover;*/
+    background-color:rgb(243, 223, 233);
+}
+.page_top{
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    position: fixed;
+    width: 94.9vw;
+    padding-right: 2%;
+    height: 10.8vh ;
+    background-color: rgb(248, 215, 231);
+}
+.page_con{
+    display: flex;
+    height: 89.2vh;
+    margin-top: 10.8vh;
+}
+.page_top a{
+    color:black;
+    font-size: 40px ;
+    text-decoration: none;
+}
+.page_top p{
+    color:rgba(0, 0, 0, 3) ;
+}
+.pc_nav{
+    position: fixed;
+    /*height: 70vh;*/
+    width: 8%;
+    background-color: rgb(247, 231, 243);
+}
+.image{
+    width:80%;
+}
+
+.code{
+    text-align:center;
+}
+.code p{
+    color: black;
+    font-size: 1cqw;
+    margin-top: 8px;
+
+}
+.nav a{
+    display:block;
+    text-align: center;
+    padding: 20px;
+    color:#333;
+    text-decoration: none;
+    font-size: 1cqw;
+}
+.nav .active,.nav a:hover{
+    color: #E98D0A;
+}
+.music{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+.music-1{
+    margin-left: 5%;
+}
+.music-2{
+    margin-left: 5%;
+}
+.music-3{
+    margin-left: 5%;
+}
+.music-img{
+    width: 25vw;
+}
